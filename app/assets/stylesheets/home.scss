@@ -1,21 +1,22 @@
 .banner img {
-  height: 600px;
+  height: auto;
   width: auto;
 }
 
-.menu {
-  margin-top: 20px;
-  padding: 30px;
+.menu, .ubication {
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
 }
 
-.menu h1 {
-  font-size: 50px;
+.menu h1, .ubication h1 {
+  font-size: 90px;
   font-family: 'Bebas Neue', cursive;
   color: rgb(196, 50, 50);
-  margin-left: 30px;
+  align-self: center;
+  font-weight: 600;
 }
 
-.product img {
-  height: 100px;
-  width: 150px;
+.product {
+  display: flex;
 }
