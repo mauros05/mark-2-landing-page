@@ -3,20 +3,36 @@
   width: auto;
 }
 
-.menu, .ubication {
+.menu, .ubication, .novedades {
   padding: 60px;
   display: flex;
   flex-direction: column;
 }
 
-.menu h1, .ubication h1 {
-  font-size: 90px;
-  font-family: 'Bebas Neue', cursive;
+.menu h1, .ubication h1, .novedades h1 {
+  font-size: 60px;
+  font-family: 'Roboto Slab', serif;
   color: rgb(196, 50, 50);
-  align-self: center;
-  font-weight: 600;
+  align-self: flex-start;
+  font-weight: 500;
 }
 
 .product {
   display: flex;
+}
+
+.map {
+  display: flex;
+  align-self: center;
+}
+
+.ubication-container {
+  display: flex;
+  align-items: center;
+}
+
+.ubication-container i {
+  font-size: 50px;
+  color: rgb(196, 50, 50);
+  margin-left: 10px;
 }
