@@ -1,20 +1,50 @@
-.banner img {
-  height: auto;
-  width: auto;
-}
-
-.menu, .ubication, .novedades {
+.menu,
+.ubication,
+.novedades {
   padding: 60px;
   display: flex;
   flex-direction: column;
 }
 
-.menu h1, .ubication h1, .novedades h1 {
+
+.menu h1,
+.novedades h1 {
   font-size: 60px;
   font-family: 'Roboto Slab', serif;
   color: rgb(196, 50, 50);
   align-self: flex-start;
   font-weight: 500;
+}
+
+.menu-container svg,
+.news-container svg {
+  color: rgb(196, 50, 50);
+  height: 60px;
+  width: 60px;
+}
+
+.ubication {
+  background-color: rgb(168, 52, 52);
+}
+
+.ubication h1 {
+  font-size: 60px;
+  font-family: 'Roboto Slab', serif;
+  color: rgb(255, 197, 104);
+  align-self: flex-start;
+  font-weight: 500;
+}
+
+.ubication-container svg {
+  color: rgb(255, 197, 104);
+  height: 60px;
+  width: 60px;
+}
+
+.menu-container, .news-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .product {
@@ -23,7 +53,8 @@
 
 .map {
   display: flex;
-  align-self: center;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .ubication-container {
@@ -31,8 +62,6 @@
   align-items: center;
 }
 
-.ubication-container i {
-  font-size: 50px;
-  color: rgb(196, 50, 50);
-  margin-left: 10px;
+.map-description-container {
+  margin-left: 30px;
 }
