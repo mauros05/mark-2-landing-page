@@ -22,6 +22,8 @@
   width: 60px;
 }
 
+// UBICATION PART
+
 .ubication {
   background-color: rgb(168, 52, 52);
 }
@@ -38,16 +40,6 @@
   color: rgb(255, 197, 104);
   height: 60px;
   width: 60px;
-}
-
-.menu-container, .news-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.product {
-  display: flex;
 }
 
 .map {
@@ -71,4 +63,12 @@
 
 .map-description-container span {
   font-size: 33px;
+}
+
+// NEWS PART
+
+.menu-container, .news-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
