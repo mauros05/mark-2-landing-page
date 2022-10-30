@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  def home
+  def home; end
 
-  end
+  def menu; end
 end
