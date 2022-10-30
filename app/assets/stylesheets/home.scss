@@ -1,0 +1,74 @@
+.menu,
+.ubication,
+.novedades {
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu h1,
+.novedades h1 {
+  font-size: 60px;
+  font-family: 'Roboto Slab', serif;
+  color: rgb(196, 50, 50);
+  align-self: flex-start;
+  font-weight: 500;
+}
+
+.menu-container svg,
+.news-container svg {
+  color: rgb(196, 50, 50);
+  height: 60px;
+  width: 60px;
+}
+
+// UBICATION PART
+
+.ubication {
+  background-color: rgb(168, 52, 52);
+}
+
+.ubication h1 {
+  font-size: 60px;
+  font-family: 'Roboto Slab', serif;
+  color: rgb(255, 197, 104);
+  align-self: flex-start;
+  font-weight: 500;
+}
+
+.ubication-container svg {
+  color: rgb(255, 197, 104);
+  height: 60px;
+  width: 60px;
+}
+
+.map {
+  display: flex;
+  flex-direction: row;
+}
+
+.ubication-container {
+  display: flex;
+  align-items: center;
+}
+
+.map-description-container {
+  margin-left: 30px;
+}
+
+.map-description-container p {
+  font-size: 20px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.map-description-container span {
+  font-size: 33px;
+}
+
+// NEWS PART
+
+.menu-container, .news-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
