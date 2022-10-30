@@ -6,7 +6,6 @@
   flex-direction: column;
 }
 
-
 .menu h1,
 .novedades h1 {
   font-size: 60px;
@@ -54,7 +53,6 @@
 .map {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
 }
 
 .ubication-container {
@@ -64,4 +62,13 @@
 
 .map-description-container {
   margin-left: 30px;
+}
+
+.map-description-container p {
+  font-size: 20px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.map-description-container span {
+  font-size: 33px;
 }
